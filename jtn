@@ -1,0 +1,14 @@
+#!/bin/sh
+target=$1
+rcfile=$HOME/.config/jtnrc
+
+if [ -f $rcfile -a "$target" ]; then
+    for dictfile in `cat $rcfile`; do
+        grep "$target" $dictfile;
+    done
+else
+    echo "Usage: jtn <word>"
+    echo
+    echo "Please list your dictionaries in $HOME/.config/jtdrc, one filename per line."
+fi
+exit 0
