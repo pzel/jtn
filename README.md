@@ -13,9 +13,9 @@ With grep(1).
 Sure.
 
     $ cat $HOME/.config/jtnrc
-    /home/pzel/.local/share/dict.txt
+    /home/pzel/.local/share/JA_EN_dict.txt
   
-    $ cat /home/pzel/.local/share/dict.txt | head -n3
+    $ cat /home/pzel/.local/share/JA_EN_dict.txt | head -n3
     利用している      |	Utilizing
     利用を　検討中      |	Considering utilization
     利用していない（予定なし）      |	Not utilizing (No plan to utilize)
