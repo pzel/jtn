@@ -8,8 +8,6 @@ if [ -f $rcfile -a "$target" ]; then
     done
 else
     echo "Usage: jtn <word>"
-    echo
-    echo "Please list your dictionaries in $HOME/.config/jtdrc, one filename per line."
+    echo "(Please list your dictionaries in $HOME/.config/jtnrc, one filename per line.)"
     exit 1
 fi
-
